@@ -257,9 +257,13 @@ body {
 .contact {
     padding: 80px 0;
     text-align: center;
-    background: url('images/WhatsApp\ Image\ 2025-01-11\ at\ 14.03.13_899c577c.jpg') no-repeat center ;
+    background: url('images/IMG-20240318-WA0222.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-size: contain;
-    color: black;
+    color: wheat;
 }
 
 .contact h2 {
