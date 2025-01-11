@@ -81,7 +81,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: url('https://picsum.photos/1920/1081') no-repeat center center/cover;
+    background: url('images/NITT-2022.webp') no-repeat center center/cover;
     height: 100vh;
     color: #fff;
     text-align: center;
@@ -187,12 +187,12 @@ body {
 }
 
 /* Events Section */
-.events {
+.register {
     padding: 80px 0;
     text-align: center;
 }
 
-.events h2 {
+.register h2 {
     font-size: 32px;
     margin-bottom: 40px;
 }
@@ -257,6 +257,8 @@ body {
 .contact {
     padding: 80px 0;
     text-align: center;
+    background: url('images/IMG-20240318-WA0130.jpg') no-repeat center center/cover;
+    color: black;
 }
 
 .contact h2 {
@@ -289,7 +291,7 @@ body {
     display: block;
 }
 
-/* Registration Section */
+/* Registration Section
 .register {
     padding: 80px 0;
     background-color: #f9f9f9;
@@ -330,7 +332,7 @@ body {
     margin-top: 20px;
     font-size: 16px;
     color: green;
-}
+} */
 
 /* Footer */
 footer {
@@ -396,3 +398,33 @@ footer {
         flex-direction: column;
     }
 }
+
+.contact-item a {
+    color: inherit; /* Inherits the color from the parent, usually #fff */
+    text-decoration: none; /* Removes the underline */
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #e67e22; /* Highlight color on hover */
+    text-decoration: underline; /* Optional: Adds underline on hover */
+}
+
+/* Contact Section Links */
+.contact-item a {
+    color: #fff; /* Ensures white text for visibility */
+    text-decoration: none; /* Removes default underline */
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #e67e22; /* Changes color on hover */
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Optional: Increase Clickable Area by Adding Padding */
+.contact-item a {
+    display: inline-block;
+    padding: 5px 0;
+}
+
