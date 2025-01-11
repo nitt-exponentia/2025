@@ -257,7 +257,8 @@ body {
 .contact {
     padding: 80px 0;
     text-align: center;
-    background: url('images/WhatsApp\ Image\ 2025-01-11\ at\ 14.03.13_899c577c.jpg') no-repeat center center/cover;
+    background: url('images/WhatsApp\ Image\ 2025-01-11\ at\ 14.03.13_899c577c.jpg') no-repeat center ;
+    background-size: contain;
     color: black;
 }
 
@@ -290,6 +291,13 @@ body {
     margin-bottom: 10px;
     display: block;
 }
+
+
+  
+  .background-tint {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+  }
 
 /* Registration Section
 .register {
