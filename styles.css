@@ -456,3 +456,95 @@ a.image_container img {
 .footer a:hover {
     color: #e67e22;
 }
+
+/* Lectures Section Styles */
+.lectures {
+    padding: 80px 0;
+    background-color: #ffffff; /* Light background for contrast */
+    text-align: center;
+}
+
+.lectures h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #2c3e50; /* Darker color for the heading */
+}
+
+.lectures p {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    font-size: 18px;
+    color: #555555; /* Muted color for the description */
+}
+
+.lectures-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between lecture items */
+}
+
+.lecture-item {
+    background-color: #f9f9f9;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lecture-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.lecture-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #e67e22; /* Accent color for lecture titles */
+}
+
+.lecture-item .speaker {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.lecture-item .datetime {
+    font-style: italic;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+.lecture-item .description {
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 15px;
+}
+
+.lecture-link {
+    display: inline-block;
+    background-color: #e67e22;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.lecture-link:hover {
+    background-color: #d35400;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .lectures-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lecture-item {
+        width: 80%;
+    }
+}
